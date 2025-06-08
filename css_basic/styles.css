@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Article Styling */
+article {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  padding: 20px;
+  background-color: #eee;
+  margin-left: 20px;
+  border-radius: 8px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Flexbox layout */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 20px;
+}
