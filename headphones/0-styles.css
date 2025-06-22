@@ -184,3 +184,8 @@ body {
     padding: 0 15px;
   }
 }
+
+.hamburger i {
+  font-size: 28px;
+  color: white;
+}
