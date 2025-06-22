@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+.results-section {
+  background-color: #071629;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.results-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pentagon {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background: #f15b5b;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.pentagon span {
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 5px;
+}
